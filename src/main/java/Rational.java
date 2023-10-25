@@ -126,9 +126,6 @@ public class Rational
         return maxNum;
     }
 
-    // *********
-    // Here are some methods that you will write later in class:
-    // *********
     // Increments the current value of our Rational (increases the value
     // of the current Rational by 1/1)
     // Example:
@@ -156,9 +153,6 @@ public class Rational
         // YOUR CODE HERE
     }
 
-    // **********
-    // Methods you'll write for homework:
-    // **********
     // Returns whether or not the Rational is a negative number
     // Example:
     // Rational r = new Rational(-3,4);
