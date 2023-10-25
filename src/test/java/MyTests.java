@@ -46,10 +46,10 @@ public class MyTests {
     public void testDecrement() {
         Rational r = new Rational(11,8);
         r.decrement();
-        assertEquals("3/8", r.toString(), "Incrementing 11/8 should give the result: 3/8");
+        assertEquals("3/8", r.toString(), "Decrementing 11/8 should give the result: 3/8");
         Rational s = new Rational(5,2);
         s.decrement();
-        assertEquals("3/2", s.toString(), "Incrementing 5/2 should give the result: 3/2");
+        assertEquals("3/2", s.toString(), "Decrementing 5/2 should give the result: 3/2");
     }
 
     @Test
